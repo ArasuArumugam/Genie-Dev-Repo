@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Command line suite]" verbose="0">
+  <test name="Command line test(failed)">
+    <classes>
+      <class name="com.genie.qa.testcases.UserPageTest">
+        <methods>
+          <include name="SetUp"/>
+          <include name="CreateNewUser" invocation-numbers="0 1"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- com.genie.qa.testcases.UserPageTest -->
+      <class name="com.genie.qa.testcases.HomePageTest">
+        <methods>
+          <include name="SetUp"/>
+          <include name="ValidateHomePageTitle"/>
+          <include name="TearDown"/>
+        </methods>
+      </class> <!-- com.genie.qa.testcases.HomePageTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->
